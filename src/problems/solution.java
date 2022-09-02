@@ -30,7 +30,6 @@ public class solution {
         }
         return 1+count(n-1);
     }
-
     public static boolean isPrime(int n){
         if(n<2){
             return false;
@@ -42,7 +41,6 @@ public class solution {
         }
         return true;
     }
-
     public static void Consecutive_prime_sum(int n){
         int sum = 2;
         int max = 2;
